@@ -143,6 +143,14 @@ address {
    color: #ffffff;
 }
 
+img {
+   width: 100%;
+}
+
+figure {
+   margin: 0;
+}
+
 .content-wrapper {
    width: 90%;
    margin: 40px 0;
@@ -152,11 +160,11 @@ address {
 
 header,
 footer {
+   background-color: #202322;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-flow: row wrap;
-   background-color: #202322;
 }
 
 /* Header Styles */
@@ -166,11 +174,19 @@ header {
 }
 
 header .content-wrapper {
+   margin: 0;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-flow: row wrap;
-   margin: 0;
+}
+
+header figure {
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
 }
 
 .header-divider {
@@ -242,6 +258,9 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+   background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
+   background-size: cover;
+   min-height: 500px;
    display: flex;
    justify-content: center;
    flex-flow: row wrap;
@@ -293,6 +312,8 @@ input[type=button] {
 /* Features */
 
 .features {
+   background: url('../img/unplugged-retreat-features.jpg') center no-repeat #333;
+   background-size: cover;
    display: flex;
    justify-content: center;
    flex-flow: row wrap;
@@ -328,7 +349,7 @@ input[type=button] {
 }
 
 .reviews h2 {
-   margin-bottom: 20px;
+   margin-bottom: 40px;
    line-height: 1.05em;
 }
 
@@ -522,6 +543,10 @@ input[type=button] {
       justify-content: space-between;
     }
 
+    header figure {
+       width: 30%;
+    }
+
     header nav {
       width: 28%;
       font-size: 1em;
@@ -536,6 +561,10 @@ input[type=button] {
     }
 
     /* Hero */
+    .hero-area {
+      min-height: 600px;
+    }
+
     .hero-area h1 {
       font-size: 3em;
       line-height: 1em;
@@ -584,8 +613,9 @@ input[type=button] {
       width: 85%;
     }
 
+    .reviews article figure,
     .reviews article div {
-      width: 49%;
+      width: 48%;
     }
 
     .reviews h3 {
@@ -646,6 +676,7 @@ input[type=button] {
 
     .faq .content-wrapper {
       justify-content: space-between;
+      align-items: baseline;
     }
 
     .faq-content {
@@ -691,6 +722,10 @@ input[type=button] {
    /* Header */
    header {
      padding: 15px 0;
+   }
+
+   header figure {
+      width: 24%;
    }
 
    header nav {
