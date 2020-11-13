@@ -211,7 +211,7 @@ header nav ul {
 }
 
 header nav ul li {
-  font-size: 1.125em;
+   font-size: 1.125em;
 }
 
 /* Footer Styles */
@@ -384,6 +384,7 @@ input[type=button] {
 /* ==========================================================================
    About Page
    ========================================================================== */
+
 .mission .content-wrapper {
    margin: 50px 0 42px 0;
 }
@@ -598,7 +599,7 @@ input[type=button] {
     }
 
     header figure {
-       width: 34.5%;
+      width: 34.5%;
     }
 
     header nav {
@@ -646,7 +647,7 @@ input[type=button] {
 
     input[type=text] {
       padding: .8em;
-}
+    }
 
     input[type=button] {
       padding: 14px 0;
@@ -701,7 +702,7 @@ input[type=button] {
     .reviews h3 {
       width: 75%;
       margin: 0;
-  }
+    }
 
     /* Footer */
     footer .content-wrapper {
@@ -723,7 +724,7 @@ input[type=button] {
     footer .social-icons {
       width: 12.5em;
       justify-content: space-between;
-}
+    }
 
     footer .copyright {
       width: 100%;
@@ -788,7 +789,6 @@ input[type=button] {
     .faq h2 {
       width: 100%;
       margin-bottom: 20px;
-
     }
 
     .faq h4,
@@ -799,7 +799,6 @@ input[type=button] {
 
     .faq-content h4 {
         margin-bottom: 15px;
-
    }
 
 
@@ -827,21 +826,21 @@ input[type=button] {
       line-height: 1.33em;
     }
 
-   /* Header */
-   header {
-     padding: 25px 0;
+    /* Header */
+    header {
+      padding: 25px 0;
    }
 
-   header figure {
+    header figure {
       width: 29.5%;
    }
 
-   header nav {
+    header nav {
       width: 17%;
       font-size: 1.125em;
    }
 
-   /* Hero */
+    /* Hero */
     .hero-area h1 {
       width: 80%;
       font-size: 3.75em;
@@ -851,7 +850,7 @@ input[type=button] {
     /* Aside */
     aside .content-wrapper {
       justify-content: space-around;
-       margin: 45px 0 55px 0;
+      margin: 45px 0 55px 0;
     }
 
     aside .content-wrapper .form-description,
@@ -902,6 +901,7 @@ input[type=button] {
       width: 95%;
       font-size: 2.98em;
     }
+
     .mission h2 {
       margin-bottom: 20px;
     }
@@ -936,7 +936,7 @@ input[type=button] {
     .faq .content-wrapper {
       margin: 50px 0 100px 0;
     }
-}
+   }
 
 
 /* ==========================================================================
